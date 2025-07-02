@@ -222,6 +222,8 @@ section {
 }
 
 .twitch-banner img {
+  display: block; /* Prevent image from behaving like inline content */
+  margin: 0 auto;  /* Horizontally center the image */
   width: 100%;
   max-width: 620px;
   border-radius: 1rem;
